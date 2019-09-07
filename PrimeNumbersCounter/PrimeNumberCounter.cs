@@ -20,20 +20,11 @@ namespace PrimeNumbersCounter
 
     public class PrimeNumberCounter
     {
-        public async Task Run()
+        public async Task<PrimesResult> Run(int min = 100000, int max = 2000000)
         {
             var random = new Random();
-            while (true)
-            {
-                var actions = new List<Action>();
-                for (int i = 0; i < 3; i++)
-                {
-                    var min = 100000;
-                    var max = 2000000;
-                    actions.Add(async () => await FindPrimeNumber(random.Next(min, max)));
-                }
-                Parallel.Invoke(actions.ToArray());
-            }
+
+            return await FindPrimeNumber(random.Next(min, max));
         }
 
         private static Task<PrimesResult> FindPrimeNumber(int n)

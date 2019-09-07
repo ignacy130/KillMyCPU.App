@@ -11,11 +11,11 @@ namespace KillMyCPU.WebApp.Controllers
     [ApiController]
     public class PrimesController : ControllerBase
     {
-        // GET api/values
+        // GET api/primes
         [HttpGet]
-        public JsonResult Run()
+        public async Task<JsonResult> Run(int min = 100000, int max = 2000000)
         {
-            return new JsonResult(new PrimeNumberCounter().Run());
+            return new JsonResult(await new PrimeNumberCounter().Run());
         }
     }
 }
