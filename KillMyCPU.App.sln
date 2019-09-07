@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillMyCPU.App", "KillMyCPU.App\KillMyCPU.App.csproj", "{DFA75B57-CEBE-48F5-AD85-82B0870D4B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbersCounter", "PrimeNumbersCounter\PrimeNumbersCounter.csproj", "{972B9C0A-B6FC-406E-8574-B5378AF7FCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillMyCPU.WebApp", "KillMyCPU.WebApp\KillMyCPU.WebApp.csproj", "{C0678CA7-49D7-4167-A6F2-CF76222FFDA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DFA75B57-CEBE-48F5-AD85-82B0870D4B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA75B57-CEBE-48F5-AD85-82B0870D4B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFA75B57-CEBE-48F5-AD85-82B0870D4B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972B9C0A-B6FC-406E-8574-B5378AF7FCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972B9C0A-B6FC-406E-8574-B5378AF7FCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972B9C0A-B6FC-406E-8574-B5378AF7FCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972B9C0A-B6FC-406E-8574-B5378AF7FCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0678CA7-49D7-4167-A6F2-CF76222FFDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0678CA7-49D7-4167-A6F2-CF76222FFDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0678CA7-49D7-4167-A6F2-CF76222FFDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0678CA7-49D7-4167-A6F2-CF76222FFDA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
