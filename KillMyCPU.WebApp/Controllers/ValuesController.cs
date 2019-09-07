@@ -15,7 +15,7 @@ namespace KillMyCPU.WebApp.Controllers
         [HttpGet]
         public async Task<JsonResult> Run(int min = 100000, int max = 2000000)
         {
-            return new JsonResult(await new PrimeNumberCounter().Run());
+            return new JsonResult(await new PrimeNumberCounter().Run(min, max));
         }
     }
 }
